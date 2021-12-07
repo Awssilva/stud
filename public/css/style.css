@@ -1,0 +1,68 @@
+@charset "utf-8"
+body {
+    background-color: #e2e2e2;
+    font-family:sans-serif;
+}
+.form{
+    width: 400px;
+    margin: auto;
+    padding: 40px;
+}
+.card{
+    box-shadow:1px 1px 5px #ccc;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.cardtop{
+    text-align: center;
+    
+}
+.card-group{
+    margin-bottom: 10px;
+    color: rgb(51, 51, 59);
+}
+
+.card-group > label{
+    width: 100%;
+    display: block;
+    text-align: left;
+    
+}
+
+.card-group > input{
+    border-radius: 5px;
+    outline: 0;
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+}
+
+.card-group > button{
+    color: white;
+    font-size: medium;
+    background-image:linear-gradient(to right, navy,rgb(4, 4, 189));
+    border-radius: 50px;
+    width: 100%;
+    padding: 15px;
+    border: 0px;
+    outline: 0;
+}
+
+.btn button:hover{
+    background-image:linear-gradient(to right, blue,navy);
+}
+
+.imglogin{
+    width: 100px;
+    border-radius: 60px;
+    box-shadow: 10px 0px 1px #f0f0f0;
+    
+}
+
+.title{
+    color: navy;
+}
